@@ -1,3 +1,8 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# FERRUSCA 
+# RÍOS MORALES ALEXIS
+
 import socket
 import sys
 
@@ -6,7 +11,10 @@ PORT = int(sys.argv[1])
 PROMPT = 'ORACLE-DB> '
 
 # command = 'insert into alumno (nombre,apellido,carrera) values (jorge,ferrusca,compu);'
-# command = 'select * from alumno where id=5;'
+# command = 'select * from alumno where id=3;'
+# command = 'delete from alumno where id=3;'
+# command = 'delete from alumno where id=3;'
+# command = 'update alumno set Apellido=Ríossss WHERE id=2;'
 
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:

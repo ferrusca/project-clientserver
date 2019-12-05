@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# FERRUSCA 
+# RÍOS MORALES ALEXIS
 
 import sys
 import socket
